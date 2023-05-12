@@ -1,6 +1,6 @@
 /* LAYOUT CSS */
 .cover {
-  background-color: #1a222c;
+  background-color: #202020;
   position: fixed;
   text-align: center;
   width: 100%;
@@ -18,7 +18,7 @@
   }
 }
 .cover-card {
-  color: $text-color;
+  color: #202020;
 /*
   padding: 0 30px;
 */
@@ -46,9 +46,12 @@
     display: block;
   }
   @include media-query($medium-screen) {
-    text-align: right;
+    text-align: left;
     margin: 0 auto;
     padding: 0 0px 80px;
+  }
+  h1 {
+    margin-bottom: 0px !important;
   }
 }
 .social-links {
@@ -88,5 +91,34 @@
         color: lighten($secondary, 14%);
       }
     }
+  }
+}
+.site-title {
+  font-family: 'Abril Fatface', serif;
+  font-size: 3.00rem;
+  font-weight: normal;
+  margin-bottom: 0.5rem;
+  margin-top: 0;
+  color: #fff;
+  font-weight: 600;
+  line-height: 1.25;
+  text-rendering: optimizeLegibility;
+}
+.body {
+  font-size: 1.50rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  margin-top: 0;
+  color: rgba(255,255,255,.5);
+}
+.copyright {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+.footer {
+  @include media-query($medium-screen) {
+    position: absolute;
+    bottom: 10px;
+    right: 40px;
   }
 }

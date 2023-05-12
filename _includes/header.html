@@ -1,23 +1,17 @@
-<div id="particles-js" class="cover-card table-cell table-middle">
+<div class="cover-card table-cell table-bottom">
   <h1>
-    <span class="site-title">{{site.username}}</span>
-    <span class="site-description">{{site.user_title}}</span>
+    <span class="site-title"><a href="/">{{site.username}}</a></span>
   </h1>
-  <div class="header-icons">
+  <p class="body">{{site.user_title}}</span>
+  <div class="header-icons body">
     <a aria-label="Send email" target="_blank" href="mailto: {{site.email}}">
       <i class="icon fa fa-envelope"></i>
     </a>
     <a aria-label="My Github" target="_blank" href="https://github.com/{{site.github}}">
       <i class="icon fa fa-github" aria-hidden="true"></i>
     </a>
-    <a aria-label="My Facebook" target="_blank" href="https://facebook.com/{{site.facebook}}">
-      <i class="icon fa fa-facebook-square" aria-hidden="true"></i>
-    </a>
-    <a aria-label="My Twitter" target="_blank" href="https://twitter.com/{{site.twitter}}">
-      <i class="icon fa fa-twitter-square" aria-hidden="true"></i>
-    </a>
   </div>
-  <div class="header-links">
-    <a class="link" href="/" data-scroll>Home</a>
-  </div>
+  <p class="body copyright">
+    &copy; {{'now'|date: "%Y"}}. All rights reserved.
+  </p>
 </div>

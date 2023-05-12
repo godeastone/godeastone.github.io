@@ -1,40 +1,6 @@
-- title: "Margin-based Neural Network Watermarking"
-  authors: Byungjoo Kim, <strong>Suyoung Lee</strong>, Seanie Lee, Sooel Son, and Sung Ju Hwang.
-  venue: <strong>ICML 2023</strong>
-
 - title: "RICC: Robust Collective Classification of Sybil Accounts"
-  authors: Dongwon Shin*, <strong>Suyoung Lee*</strong>, and Sooel Son.
+  authors: <strong>Dongwon Shin*</strong>, Suyoung Lee*, and Sooel Son.
   venue: <strong>WWW 2023</strong>
   link: /papers/shin-www23.pdf
   bib: /bibtex/shin-www23.bib
-
-- title: "Learning to Generate Inversion-Resistant Model Explanations"
-  authors: Hoyong Jeong, <strong>Suyoung Lee</strong>, Sung Ju Hwang, and Sooel Son.
-  venue: <strong>NeurIPS 2022</strong>
-  link: /papers/jeong-neurips22.pdf
-  sup: /papers/jeong-neurips22-sup.pdf
-  bib: /bibtex/jeong-neurips22.bib
-  code: https://github.com/WSP-LAB/GNIME
-
-- title: "Evaluating the Robustness of Trigger Set-Based Watermarks Embedded in Deep Neural Networks"
-  authors: <strong>Suyoung Lee</strong>, Wonho Song, Suman Jana, Meeyoung Cha, and Sooel Son.
-  venue: TDSC 2022
-  link: /papers/lee-tdsc22.pdf
-  sup: /papers/lee-tdsc22-sup.pdf
-  bib:
-  code:
-
-- title: "Montage: A Neural Network Language Model-Guided JavaScript Engine Fuzzer"
-  authors: <strong>Suyoung Lee</strong>, HyungSeok Han, Sang Kil Cha, and Sooel Son.
-  venue: <strong>USENIX Security 2020</strong>
-  link: /papers/lee-sec20.pdf
-  bib: /bibtex/lee-sec20.bib
-  code: https://github.com/WSP-LAB/Montage
-  data: https://github.com/WSP-LAB/js-test-suite
-
-- title: "FUSE: Finding File Upload Bugs via Penetration Testing"
-  authors: Taekjin Lee, Seongil Wi, <strong>Suyoung Lee</strong>, and Sooel Son.
-  venue: <strong>NDSS 2020</strong>
-  link: /papers/lee-ndss20.pdf
-  bib: /bibtex/lee-ndss20.bib
-  code: https://github.com/WSP-LAB/FUSE
+  code: https://github.com/WSP-LAB/RICC

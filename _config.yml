@@ -1,7 +1,7 @@
 # Site settings
-title: Suyoung Lee
-description: Suyoung Lee / 이수영. Ph.D. student @KAIST WSP Lab.
-url: https://leeswimming.com
+title: Dongwon Shin
+description: Dongwon Shin / 신동원. Master's student @KAIST WSP Lab.
+url: https://godeastone.github.io
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 
 timezone:          Asia/Seoul
@@ -21,18 +21,16 @@ sass:
   sass_dir: _sass
 
 # User settings
-username: Suyoung Lee
+username: Dongwon Shin
 user_title: Security Researcher
 user_description: >
-  I am a Ph.D. student <a href="https://wsp-lab.github.io/" target="_blank">
-  @KAIST WSP Lab</a>. My primary research interests lie in the area of finding,
-  analyzing, and patching software vulnerabilities. In particular, I am
-  interested in automating these steps by leveraging recent advances in machine
-  learning. Thus, the intersection of various fields including but not limited
-  to computer security, software engineering, and machine learning is of my
-  particular interest.
-email: suyoung.lee@kaist.ac.kr
-twitter: leeswimming
-github: leeswimming
-facebook: leeswimming
+  I am a master's student <a href="https://wsp-lab.github.io/" target="_blank">
+  @KAIST WSP Lab</a>. My primary research interests lie in various attacks and
+  defenses against web sites providing privacy-sensitive services. In
+  particular, I am interested in securing web services by leveraging machine
+  learning.
+email: dongwon.shin@kaist.ac.kr
+# twitter: leeswimming
+github: godeastone
+# facebook: leeswimming
 # gplus_username:  lorem_ipsum
