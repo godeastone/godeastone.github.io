@@ -17,7 +17,13 @@ html {
 p,
 tbody,
 ol {
-  font-size: $font-size-lg;
+  @include media-query($medium-screen) {
+    font-size: $font-size-lg;
+  }
+
+  @include media-query($large-screen) {
+    font-size: $font-size-xl;
+  }
   a {
     color: #268bd2;
   }
