@@ -147,3 +147,29 @@ footer {
     list-style: none;
   }
 }
+
+.site-title {
+  font-family: 'Abril Fatface', serif;
+  font-size: 3.00rem;
+  font-weight: normal;
+  margin-bottom: 0.5rem;
+  margin-top: 0;
+  color: #fff;
+  font-weight: 600;
+  line-height: 1.25;
+  text-rendering: optimizeLegibility;
+}
+.body {
+  font-size: 1.50rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  margin-top: 0;
+  color: rgba(255,255,255,.5);
+}
+.copyright {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+.sec-pub {
+  margin-bottom: 0;
+}
