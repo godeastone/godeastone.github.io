@@ -173,3 +173,8 @@ footer {
 .sec-pub {
   margin-bottom: 0;
 }
+.note {
+  @include media-query($large-screen) {
+    font-size: $font-size-lg;
+  }
+}
