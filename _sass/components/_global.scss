@@ -150,7 +150,7 @@ footer {
 
 .site-title {
   font-family: 'Abril Fatface', serif;
-  font-size: 3.00rem;
+  font-size: 2.25rem;
   font-weight: normal;
   margin-bottom: 0.5rem;
   margin-top: 0;
@@ -158,17 +158,26 @@ footer {
   font-weight: 600;
   line-height: 1.25;
   text-rendering: optimizeLegibility;
+  @include media-query($medium-screen) {
+    font-size: 3.00rem;
+  }
 }
 .body {
-  font-size: 1.50rem;
+  font-size: 1.40rem;
   font-weight: 300;
   margin-bottom: 1rem;
   margin-top: 0;
   color: rgba(255,255,255,.5);
+  @include media-query($medium-screen) {
+    font-size: 1.50rem;
+  }
 }
 .copyright {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   font-weight: 300;
+  @include media-query($medium-screen) {
+    font-size: 1.25rem;
+  }
 }
 .sec-pub {
   margin-bottom: 0;
