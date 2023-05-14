@@ -115,10 +115,3 @@
   font-size: 1.25rem;
   font-weight: 300;
 }
-.footer {
-  @include media-query($medium-screen) {
-    position: absolute;
-    bottom: 10px;
-    right: 40px;
-  }
-}
