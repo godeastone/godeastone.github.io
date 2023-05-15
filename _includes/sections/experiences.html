@@ -1,0 +1,30 @@
+<div class="user-details">
+  <h1> Research Experiences </h1>
+</div>
+
+<div class="row">
+  <div class="col">
+    <table>
+      <tbody>
+      {% for lab in site.data.experiences %}
+        <tr>
+          <td>
+            <a href="{{lab.link}}" target="_blank"><strong>{{lab.name}}</strong></a>, {{lab.school}}, (advisor: {{lab.advisor}})
+          </td>
+        <tr>
+        </tr>
+          <td>
+            <i>{{lab.position}}, ({{lab.date}})</i>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            {{lab.interest}}
+          </td>
+        </tr>
+        <td><br></td>
+      {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
