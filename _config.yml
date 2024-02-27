@@ -1,6 +1,6 @@
 # Site settings
 title: Dongwon Shin
-description: Dongwon Shin / 신동원. Master's student @KAIST WSP Lab.
+description: Dongwon Shin / 신동원. Ph.D. student @KAIST WSP Lab.
 url: https://godeastone.github.io
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 
@@ -24,15 +24,12 @@ sass:
 username: Dongwon Shin
 user_title: Security Researcher
 user_description: >
-  I am a master's student <a href="https://wsp-lab.github.io/" target="_blank">
+  I am a Ph.D. student <a href="https://wsp-lab.github.io/" target="_blank">
   @KAIST WSP Lab</a>. My primary research interests lie in various attacks and
   defenses against web sites providing privacy-sensitive services. In
   particular, I am interested in securing web services by leveraging machine
-  learning.
-
-  If you have any questions, feel free to reach out to me via email.
-  
-  Email: dongwon.shin@kaist.ac.kr
+  learning. If you have any questions, feel free to reach out to me via email 
+  (dongwon.shin@kaist.ac.kr).
 email: dongwon.shin@kaist.ac.kr
 # twitter: leeswimming
 github: godeastone
