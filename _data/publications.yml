@@ -1,6 +1,10 @@
 - title: "You Only Perturb Once: Bypassing (Robust) Ad-Blockers Using Universal Adversarial Perturbations"
   authors: <u>Dongwon Shin</u>, Suyoung Lee, Sanghyun Hong, and Sooel Son.
-  venue: 40th Annual Computer Security Applications Conference (<strong>ACSAC 2024</strong>). <br><strong>(To Appear)</strong>
+  venue: 40th Annual Computer Security Applications Conference (<strong>ACSAC 2024</strong>).
+  link: /papers/shin-acsac24.pdf
+  bib: /bibtex/shin-acsac24.bib
+  code: https://github.com/WSP-LAB/YOPO
+  slides: /slides/shin-acsac24.pdf
 
 - title: "RICC: Robust Collective Classification of Sybil Accounts"
   authors: <u>Dongwon Shin</u>*, Suyoung Lee*, and Sooel Son.
