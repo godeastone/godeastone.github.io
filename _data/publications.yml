@@ -1,3 +1,7 @@
+- title: "Private Investigator: Extracting Personally Identifiable Information from Large-Language Models Using Optimized Prompts (To Appear)"
+  authors: <u>Dongwon Shin</u>, Seongho Keum, Sanghyun Hong, and Sooel Son.
+  venue: Proceedings of The 34th USENIX Security Symposium (<strong>USENIX Security 2025</strong>).
+
 - title: "You Only Perturb Once: Bypassing (Robust) Ad-Blockers Using Universal Adversarial Perturbations"
   authors: <u>Dongwon Shin</u>, Suyoung Lee, Sanghyun Hong, and Sooel Son.
   venue: 40th Annual Computer Security Applications Conference (<strong>ACSAC 2024</strong>).
