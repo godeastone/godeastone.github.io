@@ -1,10 +1,10 @@
 <div class="user-details">
   <h1> Patents </h1>
 </div>
-<div class="container">
+
 <div class="row">
   <div class="col">
-    <ol>
+    <ul>
       {% for patent in site.data.patents %}
         <li>
           <strong>
@@ -22,6 +22,6 @@
           {% endif %}
         </li>
       {% endfor %}
-    </ol>
+    </ul>
   </div>
 </div>
