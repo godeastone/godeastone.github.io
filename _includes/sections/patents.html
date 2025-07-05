@@ -1,0 +1,46 @@
+<div class="user-details">
+  <h1 class="sec-pub"> Publications </h1>
+</div>
+
+<div class="row">
+  <div class="note" style="float:right"></div>
+  <div class="col">
+    <ol>
+      {% for patent in site.data.patents %}
+        <li>
+          <strong>
+            {{patent.title}} <br>
+          </strong>
+          <em>
+          {{patent.authors}}<br>
+          </em>
+          {{patent.information}}<br>
+          {% if patent.link %}
+            [<a href="{{patent.link}}" target="_blank">patent</a>]
+          {% endif %}
+          {% if patent.bib %}
+            [<a href="{{patent.bib}}" target="_blank">bib</a>]
+          {% endif %}
+          {% if patent.slides %}
+            [<a href="{{patent.slides}}" target="_blank">slides</a>]
+          {% endif %}
+          {% if patent.code %}
+            [<a href="{{patent.code}}" target="_blank">code</a>]
+          {% endif %}
+          {% if patent.data %}
+            [<a href="{{patent.data}}" target="_blank">data</a>]
+          {% endif %}
+          {% if patent.sup %}
+            [<a href="{{patent.sup}}" target="_blank">supplemental materials</a>]
+          {% endif %}
+          {% if forloop.last == false %}
+            <br>
+            {% if patent.link %}
+              <br>
+            {% endif %}
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ol>
+  </div>
+</div>

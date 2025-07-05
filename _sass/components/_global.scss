@@ -189,14 +189,14 @@ footer {
 .profile-photo-wrapper {
   width: 160px;
   height: 160px;
-  border-radius: 50%;
+  border-radius: 10%;
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.15);
   box-shadow: 0 0 12px 4px rgba(255, 255, 255, 0.25);
   transition: transform 0.3s ease;
   cursor: pointer;
   background-color: #000;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .profile-photo-wrapper:hover {
