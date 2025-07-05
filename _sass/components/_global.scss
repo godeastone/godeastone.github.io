@@ -149,7 +149,6 @@ footer {
 }
 
 .site-title {
-  font-family: 'Abril Fatface', serif;
   font-size: 2.25rem;
   font-weight: normal;
   margin-bottom: 0.5rem;
@@ -159,7 +158,7 @@ footer {
   line-height: 1.25;
   text-rendering: optimizeLegibility;
   @include media-query($medium-screen) {
-    font-size: 3.00rem;
+    font-size: 2.00rem;
   }
 }
 .body {
@@ -188,8 +187,8 @@ footer {
   }
 }
 .profile-photo-wrapper {
-  width: 180px;
-  height: 180px;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.15);
