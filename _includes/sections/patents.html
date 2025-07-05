@@ -1,5 +1,5 @@
 <div class="user-details">
-  <h1 class="sec-pub"> Patents </h1>
+  <h1> Patents </h1>
 </div>
 
 <div class="row">
@@ -15,24 +15,6 @@
           {{patent.authors}}<br>
           </em>
           {{patent.information}}<br>
-          {% if patent.link %}
-            [<a href="{{patent.link}}" target="_blank">patent</a>]
-          {% endif %}
-          {% if patent.bib %}
-            [<a href="{{patent.bib}}" target="_blank">bib</a>]
-          {% endif %}
-          {% if patent.slides %}
-            [<a href="{{patent.slides}}" target="_blank">slides</a>]
-          {% endif %}
-          {% if patent.code %}
-            [<a href="{{patent.code}}" target="_blank">code</a>]
-          {% endif %}
-          {% if patent.data %}
-            [<a href="{{patent.data}}" target="_blank">data</a>]
-          {% endif %}
-          {% if patent.sup %}
-            [<a href="{{patent.sup}}" target="_blank">supplemental materials</a>]
-          {% endif %}
           {% if forloop.last == false %}
             <br>
             {% if patent.link %}
