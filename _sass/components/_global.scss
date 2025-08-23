@@ -18,7 +18,7 @@ p,
 tbody,
 ol {
   @include media-query($medium-screen) {
-    font-size: $font-size-lg;
+    font-size: $font-size-sm;
   }
 
   @include media-query($large-screen) {
@@ -159,7 +159,7 @@ footer {
   line-height: 1.25;
   text-rendering: optimizeLegibility;
   @include media-query($medium-screen) {
-    font-size: 2.00rem;
+    font-size: 1.75rem;
   }
 }
 .body {
@@ -169,20 +169,23 @@ footer {
   margin-top: 0;
   color: rgba(255,255,255,.5);
   @include media-query($medium-screen) {
-    font-size: 1.25rem;
+    font-size: 1.00rem;
   }
 }
 .copyright {
   font-size: 1.15rem;
   font-weight: 300;
   @include media-query($medium-screen) {
-    font-size: 1.25rem;
+    font-size: 1.00rem;
   }
 }
 .sec-pub {
   margin-bottom: 0;
 }
 .note {
+  @include media-query($medium-screen) {
+    font-size: $font-size-sm;
+  }
   @include media-query($large-screen) {
     font-size: $font-size-lg;
   }
