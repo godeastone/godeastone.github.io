@@ -1,6 +1,6 @@
 - title: "LLMs Killed Q&A Stars? Analyzing the Impact of LLM-Generated Answers on an Online Q&A Platform (To Appear)"
   authors: <u>Dongwon Shin</u> and Sooel Son.
-  venue: "The 35th The Web Conference 2026 (<strong>WWW 2026</strong>)." 
+  venue: "35th The Web Conference 2026 (<strong>WWW 2026</strong>)." 
   
 - title: "Private Investigator: Extracting Personally Identifiable Information from Large Language Models Using Optimized Prompts"
   authors: Seongho Keum, <u>Dongwon Shin</u>, Leo Marchyok, Sanghyun Hong, and Sooel Son.
@@ -20,7 +20,7 @@
 
 - title: "RICC: Robust Collective Classification of Sybil Accounts"
   authors: <u>Dongwon Shin</u>*, Suyoung Lee*, and Sooel Son.
-  venue: "The 32th The Web Conference 2023 (<strong>WWW 2023</strong>)."
+  venue: "32th The Web Conference 2023 (<strong>WWW 2023</strong>)."
   link: /papers/shin-www23.pdf
   bib: /bibtex/shin-www23.bib
   code: https://github.com/WSP-LAB/RICC
