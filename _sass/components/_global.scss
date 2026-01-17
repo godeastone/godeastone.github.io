@@ -213,3 +213,21 @@ footer {
   object-position: center top;
   display: block;
 }
+
+// Section layout styling
+#about,
+#awards,
+#bugs,
+#education,
+#publications,
+#patents,
+#experiences,
+#academic-services {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1300px;
+  
+  @include media-query($large-screen) {
+    width: 85%;
+  }
+}
