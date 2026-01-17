@@ -1,0 +1,23 @@
+<div class="user-details">
+  <h1> Academic Services </h1>
+</div>
+
+<div class="row">
+  <div class="col">
+    {% for service in site.data.academic-services %}
+    <h3>{{ service.category }}</h3>
+    <table>
+      <tbody>
+      {% for review in service.reviews %}
+        <tr>
+          <td>
+            <strong>{{ review.name }}</strong> ({{ review.year }})
+          </td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+    <br>
+    {% endfor %}
+  </div>
+</div>
