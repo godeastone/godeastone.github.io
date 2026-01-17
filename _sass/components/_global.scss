@@ -6,6 +6,12 @@
 *:after {
   @include box-sizing;
 }
+
+// Reset body and html defaults
+body, html {
+  margin: 0;
+  padding: 0;
+}
 .notice {
   border: 1px solid lighten($text-color, 45%);
   border-radius: 0.4em;
@@ -226,16 +232,19 @@ footer {
   width: 90%;
   margin: 0 auto;
   max-width: 1300px;
+  overflow-x: hidden; // Prevent horizontal overflow from negative margins
   
   @include media-query($large-screen) {
     width: 85%;
   }
 }
 
-// Fix double scroll bar issue on larger screens
-@include media-query($large-screen) {
+// Fix double scroll bar issue on medium+ screens
+@include media-query($medium-screen) {
   body, html {
     overflow: hidden;
     height: 100vh;
+    margin: 0;
+    padding: 0;
   }
 }
