@@ -231,3 +231,11 @@ footer {
     width: 85%;
   }
 }
+
+// Fix double scroll bar issue on larger screens
+@include media-query($large-screen) {
+  body, html {
+    overflow: hidden;
+    height: 100vh;
+  }
+}

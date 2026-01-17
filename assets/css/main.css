@@ -351,6 +351,12 @@ footer .heart-icon {
   }
 }
 
+@media only screen and (min-width: 2180px) {
+  body, html {
+    overflow: hidden;
+    height: 100vh;
+  }
+}
 /**
   * Grid
   */
