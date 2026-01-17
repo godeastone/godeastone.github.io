@@ -1,8 +1,4 @@
 - category: Conference Reviewer
   reviews:
-    - name: "USENIX Security Symposium"
+    - name: "The ACM Web Conference: Security and Privacy Research Track (WWW)"
       year: "2024"
-    - name: "ACM Conference on Computer and Communications Security (CCS)"
-      year: "2024"
-    - name: "IEEE Symposium on Security and Privacy"
-      year: "2023"
