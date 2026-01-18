@@ -239,6 +239,16 @@ footer {
   }
 }
 
+// Academic Services section spacing
+#academic-services {
+  h3 {
+    margin-bottom: 0.5em;
+  }
+  table {
+    margin-top: 0;
+  }
+}
+
 // Fix double scroll bar issue on medium+ screens
 @include media-query($medium-screen) {
   body, html {
