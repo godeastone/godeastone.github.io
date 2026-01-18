@@ -229,13 +229,13 @@ footer {
 #patents,
 #experiences,
 #academic-services {
-  width: 90%;
-  margin: 0 auto;
-  max-width: 1300px;
+  width: 85%;
+  margin: 0 auto 120px auto;
+  max-width: 1200px;
   overflow-x: hidden; // Prevent horizontal overflow from negative margins
   
   @include media-query($large-screen) {
-    width: 85%;
+    width: 80%;
   }
 }
 
