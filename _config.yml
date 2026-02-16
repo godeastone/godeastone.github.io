@@ -22,7 +22,7 @@ sass:
 
 # User settings
 username: Dongwon Shin
-user_title: Security Researcher
+user_title: Ph.D. Student
 user_description: >
   I am a Ph.D. student <a href="https://wsp-lab.github.io/" target="_blank">
   @KAIST WSP Lab</a> under the supervision of <a href="https://sites.google.com/site/ssonkaist/" target="_blank"> Sooel Son</a>.
@@ -31,5 +31,5 @@ user_description: >
   I am also interested in analyzing diverse privacy issues related to large language models.
   If you have any questions, feel free to reach out to me via email 
   (dongwon.shin@kaist.ac.kr).
-email: dongwon.shin@kaist.ac.kr
+email: godeastone@kaist.ac.kr
 github: godeastone
