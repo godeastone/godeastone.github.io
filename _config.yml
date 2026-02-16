@@ -26,10 +26,10 @@ user_title: Ph.D. Student
 user_description: >
   I am a Ph.D. student <a href="https://wsp-lab.github.io/" target="_blank">
   @KAIST WSP Lab</a> under the supervision of <a href="https://sites.google.com/site/ssonkaist/" target="_blank"> Sooel Son</a>.
-  My primary research interests lie in various attacks and
-  defenses against websites providing privacy-sensitive services.
-  I am also interested in analyzing diverse privacy issues related to large language models.
-  If you have any questions, feel free to reach out to me via email 
-  (dongwon.shin@kaist.ac.kr).
+  My research interests includes:
+  (1) Developing safer and more efficient guardrails for LLMs,
+  (2) Analyzing diverse privacy issues in LLMs, and
+  (3) Conducting various attacks and defenses against websites providing privacy-sensitive services.
+  If you have any questions, feel free to reach out to me via email.
 email: godeastone@kaist.ac.kr
 github: godeastone
