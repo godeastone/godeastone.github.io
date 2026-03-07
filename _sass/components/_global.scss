@@ -165,7 +165,7 @@ footer {
   line-height: 1.25;
   text-rendering: optimizeLegibility;
   @include media-query($medium-screen) {
-    font-size: 2.00rem;
+    font-size: clamp(1.00rem, 1.2vw + 0.5rem, 2.00rem);
   }
 }
 .body {
@@ -175,14 +175,16 @@ footer {
   margin-top: 0;
   color: rgba(255,255,255,.5);
   @include media-query($medium-screen) {
-    font-size: 1.25rem;
+    font-size: clamp(0.75rem, 0.8vw + 0.3rem, 1.25rem);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
   }
 }
 .copyright {
   font-size: 1.15rem;
   font-weight: 300;
   @include media-query($medium-screen) {
-    font-size: 1.25rem;
+    font-size: clamp(0.70rem, 0.7vw + 0.3rem, 1.25rem);
   }
 }
 .sec-pub {
@@ -206,6 +208,11 @@ footer {
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
+  @include media-query($medium-screen) {
+    width: clamp(80px, 80%, 160px);
+    height: auto;
+    aspect-ratio: 1;
+  }
 }
 
 .profile-photo-wrapper:hover {

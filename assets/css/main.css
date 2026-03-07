@@ -267,7 +267,7 @@ footer .heart-icon {
 }
 @media only screen and (min-width: 992px) {
   .site-title {
-    font-size: 2rem;
+    font-size: clamp(1.00rem, 1.2vw + 0.5rem, 2.00rem);
   }
 }
 
@@ -280,7 +280,9 @@ footer .heart-icon {
 }
 @media only screen and (min-width: 992px) {
   .body {
-    font-size: 1.25rem;
+    font-size: clamp(0.75rem, 0.8vw + 0.3rem, 1.25rem);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
   }
 }
 
@@ -290,7 +292,7 @@ footer .heart-icon {
 }
 @media only screen and (min-width: 992px) {
   .copyright {
-    font-size: 1.25rem;
+    font-size: clamp(0.70rem, 0.7vw + 0.3rem, 1.25rem);
   }
 }
 
@@ -317,6 +319,13 @@ footer .heart-icon {
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
+}
+@media only screen and (min-width: 992px) {
+  .profile-photo-wrapper {
+    width: clamp(80px, 80%, 160px);
+    height: auto;
+    aspect-ratio: 1;
+  }
 }
 
 .profile-photo-wrapper:hover {
@@ -698,8 +707,16 @@ footer .heart-icon {
 @media only screen and (min-width: 992px) {
   .cover {
     height: 100vh;
+    overflow-y: auto;
     position: initial;
     width: 100%;
+    padding: 20px 10px 15px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .header-icons {
+    font-size: clamp(1.2rem, 1vw + 0.5rem, 2rem) !important;
   }
 }
 
