@@ -270,4 +270,11 @@ footer {
     margin: 0;
     padding: 0;
   }
+  body > .row {
+    display: flex;
+    height: 100vh;
+  }
+  body > .row > .col {
+    float: none;
+  }
 }

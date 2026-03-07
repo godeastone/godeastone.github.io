@@ -373,6 +373,13 @@ footer .heart-icon {
     margin: 0;
     padding: 0;
   }
+  body > .row {
+    display: flex;
+    height: 100vh;
+  }
+  body > .row > .col {
+    float: none;
+  }
 }
 /**
   * Grid
@@ -710,7 +717,11 @@ footer .heart-icon {
     overflow-y: auto;
     position: initial;
     width: 100%;
-    padding: 20px 10px 15px;
+    padding: 20px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -752,9 +763,10 @@ footer .heart-icon {
 }
 @media only screen and (min-width: 992px) {
   .cover-card {
-    text-align: left;
+    text-align: center;
     margin: 0 auto;
-    padding: 0 0px 80px;
+    padding: 0;
+    width: 100%;
   }
 }
 .cover-card h1 {

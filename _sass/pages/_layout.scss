@@ -16,7 +16,11 @@
     overflow-y: auto;
     position: initial;
     width: 100%;
-    padding: 20px 10px 15px;
+    padding: 20px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
 .header-icons {
@@ -54,9 +58,10 @@
     display: block;
   }
   @include media-query($medium-screen) {
-    text-align: left;
+    text-align: center;
     margin: 0 auto;
-    padding: 0 0px 80px;
+    padding: 0;
+    width: 100%;
   }
   h1 {
     margin-bottom: 0px !important;
