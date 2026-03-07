@@ -21,7 +21,7 @@
 }
 .header-icons {
   @include media-query($medium-screen) {
-    font-size: clamp(1.2rem, 1vw + 0.5rem, 2rem) !important;
+    font-size: unquote("clamp(1.2rem, 1vw + 0.5rem, 2rem)") !important;
   }
 }
 .cover-card {
