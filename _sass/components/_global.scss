@@ -165,7 +165,7 @@ footer {
   line-height: 1.25;
   text-rendering: optimizeLegibility;
   @include media-query($medium-screen) {
-    font-size: unquote("clamp(1.00rem, 1.2vw + 0.5rem, 2.00rem)");
+    font-size: unquote("clamp(1.2rem, 1.4vw + 0.5rem, 2.25rem)");
   }
 }
 .body {
@@ -175,7 +175,7 @@ footer {
   margin-top: 0;
   color: rgba(255,255,255,.5);
   @include media-query($medium-screen) {
-    font-size: unquote("clamp(0.75rem, 0.8vw + 0.3rem, 1.25rem)");
+    font-size: unquote("clamp(0.85rem, 0.9vw + 0.4rem, 1.4rem)");
     word-wrap: break-word;
     overflow-wrap: break-word;
   }
