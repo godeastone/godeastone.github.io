@@ -238,7 +238,6 @@ footer {
 #academic-services {
   width: 85%;
   margin: 0 auto 40px auto;
-  max-width: 1200px;
   overflow-x: hidden; // Prevent horizontal overflow from negative margins
   
   @include media-query($large-screen) {
