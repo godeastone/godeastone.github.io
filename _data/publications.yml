@@ -6,7 +6,7 @@
   authors: <u>Dongwon Shin</u> and Sooel Son.
   venue: "35th The ACM Web Conference (<strong>WWW 2026</strong>)."
   link: /papers/shin-www26.pdf
-  bib: /bibtex/keum-usec25.bib
+  bib: /bibtex/shin-www26.bib
   code: https://github.com/WSP-LAB/LLMs-Killed-QnA-Stars
   
 - title: "Private Investigator: Extracting Personally Identifiable Information from Large Language Models Using Optimized Prompts"
