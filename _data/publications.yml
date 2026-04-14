@@ -2,9 +2,12 @@
   authors: Suyoung Lee, Seongho Keum, Changoo Lee, <u>Dongwon Shin</u>, Sanghyun Hong, Byoungyoung Lee, and Sooel Son.
   venue: "47th IEEE Symposium on Security and Privacy (<strong>IEEE S&P 2026</strong>)." 
   
-- title: "LLMs Killed Q&A Stars? Analyzing the Impact of LLM-Generated Answers on an Online Q&A Platform (To Appear)"
+- title: "LLMs Killed Q&A Stars? Analyzing the Impact of LLM-Generated Answers on an Online Q&A Platform"
   authors: <u>Dongwon Shin</u> and Sooel Son.
-  venue: "35th The ACM Web Conference (<strong>WWW 2026</strong>)." 
+  venue: "35th The ACM Web Conference (<strong>WWW 2026</strong>)."
+  link: /papers/shin-www26.pdf
+  bib: /bibtex/keum-usec25.bib
+  code: https://github.com/WSP-LAB/LLMs-Killed-QnA-Stars
   
 - title: "Private Investigator: Extracting Personally Identifiable Information from Large Language Models Using Optimized Prompts"
   authors: Seongho Keum, <u>Dongwon Shin</u>, Leo Marchyok, Sanghyun Hong, and Sooel Son.
