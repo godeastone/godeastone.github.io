@@ -1,3 +1,7 @@
+- title: "AgentBreaker: A Framework for Evaluating Context-Aware Indirect Prompt Injection Risks in Modern Web Agents (To Appear)"
+  authors: Yongbi Son*, Changoo Lee*, <u>Dongwon Shin</u>, Byoungyoung Lee, Sanghyun Hong, and Sooel Son.
+  venue: "35th The ACM SIGSOFT International Symposium on Software Testing and Analysis (<strong>ISSTA 2026</strong>)." 
+
 - title: "Site Isolation is Dead: How Site Isolation is Broken in Agentic Browsers and Extensions (To Appear)"
   authors: Suyoung Lee, Seongho Keum, Changoo Lee, <u>Dongwon Shin</u>, Sanghyun Hong, Byoungyoung Lee, and Sooel Son.
   venue: "47th IEEE Symposium on Security and Privacy (<strong>IEEE S&P 2026</strong>)." 
