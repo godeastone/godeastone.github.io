@@ -15,7 +15,7 @@
   link: /papers/shin-www26.pdf
   bib: /bibtex/shin-www26.bib
   code: https://github.com/WSP-LAB/LLMs-Killed-QnA-Stars
-  poster: /slides/shin-www26.pdf
+  slides: /slides/shin-www26.pdf
   
 - title: "Private Investigator: Extracting Personally Identifiable Information from Large Language Models Using Optimized Prompts"
   authors: Seongho Keum, <u>Dongwon Shin</u>, Leo Marchyok, Sanghyun Hong, and Sooel Son.
