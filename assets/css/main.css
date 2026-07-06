@@ -105,14 +105,14 @@ html {
   p,
   tbody,
   ol {
-    font-size: 18.75px;
+    font-size: 17.5px;
   }
 }
 @media only screen and (min-width: 2180px) {
   p,
   tbody,
   ol {
-    font-size: 22.5px;
+    font-size: 21px;
   }
 }
 p a,
