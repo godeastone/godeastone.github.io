@@ -264,6 +264,19 @@ footer {
   }
 }
 
+// Laptop-sized screens (e.g. 14" MacBook, ~1512px wide): shrink the profile
+// photo and right-panel text; large monitors (>1800px) keep the current sizes
+@media only screen and (min-width: $medium-screen) and (max-width: 1800px) {
+  .profile-photo-wrapper {
+    width: clamp(90px, 8.5vw, 140px);
+  }
+  p,
+  tbody,
+  ol {
+    font-size: 1.1rem;
+  }
+}
+
 // Fix double scroll bar issue on medium+ screens
 @include media-query($medium-screen) {
   body, html {
