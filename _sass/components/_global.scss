@@ -313,6 +313,12 @@ footer {
   white-space: nowrap;
   vertical-align: top;
 }
+// Advisor note wraps as a whole: it stays on the same line when it fits,
+// otherwise it moves to a new line before "(Advisor: ...)"
+#education .edu-advisor {
+  display: inline-block;
+  white-space: nowrap;
+}
 
 // Fix double scroll bar issue on medium+ screens
 @include media-query($medium-screen) {
