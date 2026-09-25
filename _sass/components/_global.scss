@@ -269,7 +269,7 @@ footer {
 // large monitors (>1800px) keep the current sizes
 @media only screen and (min-width: $medium-screen) and (max-width: 1800px) {
   .profile-photo-wrapper {
-    width: clamp(100px, 9.6vw, 150px);
+    width: clamp(105px, 10.3vw, 158px);
   }
 
   // Right panel: slightly smaller text
@@ -293,7 +293,7 @@ footer {
 
   // Right panel: tighter margins
   .post-listing {
-    padding: 30px 20px 0;
+    padding: 36px 24px 0;
   }
   #about,
   #awards,
@@ -303,9 +303,15 @@ footer {
   #patents,
   #experiences,
   #academic-services {
-    width: 92%;
-    margin-bottom: 28px;
+    width: 90%;
+    margin-bottom: 32px;
   }
+}
+
+// Keep the date column of the Education table on one line
+#education td:first-child {
+  white-space: nowrap;
+  vertical-align: top;
 }
 
 // Fix double scroll bar issue on medium+ screens
