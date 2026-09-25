@@ -264,16 +264,47 @@ footer {
   }
 }
 
-// Laptop-sized screens (e.g. 14" MacBook, ~1512px wide): shrink the profile
-// photo and right-panel text; large monitors (>1800px) keep the current sizes
+// Laptop-sized screens (e.g. 14" MacBook, ~1512px wide): size the profile
+// photo (~145px at 1512px wide) and tighten the right panel's text and margins;
+// large monitors (>1800px) keep the current sizes
 @media only screen and (min-width: $medium-screen) and (max-width: 1800px) {
   .profile-photo-wrapper {
-    width: clamp(90px, 8.5vw, 140px);
+    width: clamp(100px, 9.6vw, 150px);
   }
+
+  // Right panel: slightly smaller text
   p,
   tbody,
   ol {
-    font-size: 1.1rem;
+    font-size: 1rem;
+  }
+  .post-listing {
+    h1 {
+      font-size: 1.95rem;
+      margin: 0.7rem 0 0.5rem 0;
+    }
+    h3 {
+      font-size: 1.35rem;
+    }
+    p {
+      margin: 0.9em 0;
+    }
+  }
+
+  // Right panel: tighter margins
+  .post-listing {
+    padding: 30px 20px 0;
+  }
+  #about,
+  #awards,
+  #bugs,
+  #education,
+  #publications,
+  #patents,
+  #experiences,
+  #academic-services {
+    width: 92%;
+    margin-bottom: 28px;
   }
 }
 
